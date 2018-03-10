@@ -36,3 +36,16 @@ def test_command_line_interface():
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output
+
+
+def test_shortbread(capsys):
+    """Test the output from shortbread"""
+    # shortbread() only prints; returns nothing
+    assert shortbread.shortbread(4) is None
+    # Capture the result of the arepas.ingredients() function call.
+    captured = capsys.readouterr()
+    # If we check captured, we can see that the ingredients have been printed.
+    assert "4 cups flour" in captured.out
+    assert "1.0 cups sugar" in captured.out
+    assert "2.0 cups butter" in captured.out
+    assert "Bake at 350 degrees for 10-12 minutes" in captured.out
