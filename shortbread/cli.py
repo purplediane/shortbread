@@ -3,14 +3,14 @@
 """Console script for shortbread."""
 import sys
 import click
+from shortbread.shortbread import shortbread
 
 
 @click.command()
-def main(args=None):
+@click.argument('count', type=int)
+def main(count):
     """Console script for shortbread."""
-    click.echo("Replace this message by putting your code into "
-               "shortbread.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    shortbread(count)
     return 0
 
 

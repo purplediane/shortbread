@@ -30,11 +30,22 @@ def test_content(response):
 def test_command_line_interface():
     """Test the CLI."""
     runner = CliRunner()
-    result = runner.invoke(cli.main)
+    # Original that cookiecutter created
+    # result = runner.invoke(cli.main)
+    # assert result.exit_code == 0
+    # assert 'shortbread.cli.main' in result.output
+    # help_result = runner.invoke(cli.main, ['--help'])
+    # assert help_result.exit_code == 0
+    # assert '--help  Show this message and exit.' in help_result.output
+    result = runner.invoke(cli.main, ['4'])
     assert result.exit_code == 0
-    assert 'shortbread.cli.main' in result.output
+    assert '4 cups flour' in result.output
+    assert '1.0 cups sugar' in result.output
+    assert '2.0 cups butter' in result.output
+    assert 'Bake at 350 degrees for 10-12 minutes' in result.output
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
+    # assert 'Usage: shortbread [OPTIONS] COUNT' in help_result.output
     assert '--help  Show this message and exit.' in help_result.output
 
 
