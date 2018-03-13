@@ -46,6 +46,7 @@ def test_command_line_interface():
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     # assert 'Usage: shortbread [OPTIONS] COUNT' in help_result.output
+    # Can't use that ^^^ because it says Usage: main here.
     assert '--help  Show this message and exit.' in help_result.output
 
 
