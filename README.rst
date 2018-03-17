@@ -29,6 +29,8 @@ Features
 * Calculates and prints the ingredients for ``n`` dozen shortbread cookies.
 * Prints a reminder of temperature and time for baking.
 * Of course, the actual number of cookies and baking time depends upon how thick and large you make the cookies!
+* Additional options for printing long instructions and making Chocolate Chip verion.
+* See `Usage documentation`_ for hints and detailed instructions.
 
 Credits
 -------
@@ -40,3 +42,4 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 .. _`Creating and Distributing Python Packages`: https://courses.twoscoopspress.com/
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _`Usage documentation`: http://shortbread.readthedocs.io/en/latest/usage.html
