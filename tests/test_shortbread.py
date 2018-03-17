@@ -41,13 +41,13 @@ def test_command_line_interface():
     assert result.exit_code == 0
     assert '4 cups flour' in result.output
     assert '1.0 cups sugar' in result.output
-    assert '2.0 cups butter' in result.output
-    assert 'Bake at 350 degrees for 10-12 minutes' in result.output
+    assert '2.0 cups salted butter' in result.output
+    assert 'Bake cookies at 350 degrees for 10-12 minutes' in result.output
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     # assert 'Usage: shortbread [OPTIONS] COUNT' in help_result.output
     # Can't use that ^^^ because it says Usage: main here.
-    assert '--help  Show this message and exit.' in help_result.output
+    assert '--help      Show this message and exit.' in help_result.output
 
 
 def test_shortbread(capsys):
@@ -59,5 +59,5 @@ def test_shortbread(capsys):
     # If we check captured, we can see that the ingredients have been printed.
     assert "4 cups flour" in captured.out
     assert "1.0 cups sugar" in captured.out
-    assert "2.0 cups butter" in captured.out
-    assert "Bake at 350 degrees for 10-12 minutes" in captured.out
+    assert "2.0 cups salted butter" in captured.out
+    assert "Bake cookies at 350 degrees for 10-12 minutes" in captured.out

@@ -8,9 +8,11 @@ from shortbread.shortbread import shortbread
 
 @click.command()
 @click.argument('count', type=int)
-def main(count):
+@click.option('--long', '-l', is_flag=True)
+@click.option('--choc', '-c', is_flag=True)
+def main(count, long, choc):
     """Console script for shortbread."""
-    shortbread(count)
+    shortbread(count, long, choc)
     return 0
 
 

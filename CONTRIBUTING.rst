@@ -20,6 +20,7 @@ Report bugs at https://github.com/purplediane/shortbread/issues.
 If you are reporting a bug, please include:
 
 * Your operating system name and version.
+* Python version and Shortbread version.
 * Any details about your local setup that might be helpful in troubleshooting.
 * Detailed steps to reproduce the bug.
 
@@ -64,7 +65,7 @@ Ready to contribute? Here's how to set up `shortbread` for local development.
 
     $ git clone git@github.com:your_name_here/shortbread.git
 
-3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
+3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed for Python 3.4+, this is how you set up your fork for local development::
 
     $ mkvirtualenv shortbread
     $ cd shortbread/
@@ -102,7 +103,7 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-3. The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy. Check
+3. The pull request should work for Python 3.4, 3.5 and 3.6. Check
    https://travis-ci.org/purplediane/shortbread/pull_requests
    and make sure that the tests pass for all supported Python versions.
 

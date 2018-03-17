@@ -16,7 +16,7 @@ Shortbread
 
 
 
-Shortbread recipe calculator.
+Shortbread Recipe Calculator.
 
 
 * Free software: MIT license

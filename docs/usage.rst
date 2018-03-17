@@ -2,33 +2,93 @@
 Usage
 =====
 
-To use Shortbread in a project::
+Command line
+------------
 
-    import shortbread
-
-Call the ``shortbread`` function with the number of dozen cookies you want to make:
-
-::
-
-    shortbread(4)
-
-
-This will print the ingredients plus a reminder of temperature and time for baking:
+The basic usage is to type ``shortbread`` followed by the number of dozen cookies to make. The count is required. For example:
 
 ::
 
+    shortbread 4
+
+This will print the ingredients list for making approximately 4 dozen cookies plus a reminder of temperature and time for baking:
+
+::
+
+    Shortbread Cookies - makes approx. 4 doz.
     4 cups flour
-    1.0 cups sugar
-    2.0 cups butter
-    Bake at 350 degrees for 10-12 minutes
+    1.0 cups sugar (may use brown sugar)
+    2.0 cups butter - NOT margarine
+    1.0 teaspoons vanilla (optional)
+    Bake cookies at 350 degrees for 10-12 minutes
+
+Optional: Long printout
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Adding a ``--long`` or ``-l`` will print out the long version of instructions:
+
+::
+
+    shortbread 4 --long
+
+Will result in:
+
+::
+
+    Shortbread Cookies - makes approx. 4 doz.
+    4 cups flour
+    1.0 cups sugar (may use brown sugar)
+    2.0 cups salted butter - NOT margarine
+    1.0 teaspoons vanilla (optional)
+
+    - Preheat oven to 350 degrees F.
+    - Cream the butter and sugar together well.
+    - Stir in optional vanilla.
+    - Mix in the flour until it makes a stiff dough.
+    - Roll out 1/4 to 1/2 inch thick and cut into cookies.
+    - Place on baking sheet; line with parchment paper if desired.
+    - Bake 10 to 12 minutes at 350 degrees until golden brown.
+    When cool, enjoy your delicious cookies!
+
+
+Optional: Chocolate Chip Shortbread
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Adding ``--choc`` or ``-c`` will modify the recipe with instructions to make chocolate chip shortbread cookies:
+
+::
+
+    shortbread 4 --long --choc
+
+Will print out the long version of instructions for making chocolate chip shortbread cookies:
+
+::
+
+    Chocolate Chip Shortbread Cookies - makes approx. 4 doz.
+    4 cups flour
+    1.0 cups sugar (may use brown sugar)
+    2.0 cups salted butter - NOT margarine
+    1.0 teaspoons vanilla (optional)
+    1.0 teaspoons baking powder
+    1.0 cups small semisweet chocolate chips
+
+    - Preheat oven to 350 degrees F.
+    - Cream the butter and sugar together well.
+    - Stir in optional vanilla.
+    - Sift together baking powder and flour.
+    - Mix in the flour until it makes a stiff dough.
+    - Stir in the chocolate chips.
+    - Scoop and roll into walnut-sized balls.
+    - Place on baking sheet; line with parchment paper if desired.
+    - Flatten cookie balls slightly.
+    - Bake 15 to 20 minutes at 350 degrees until golden brown.
+    When cool, enjoy your delicious cookies!
 
 Making the cookies
 ------------------
 
-* Cream the butter and sugar together well. You can use powdered sugar or brown sugar if you prefer.
-* Fold in the flour until it makes a stiff dough.
-* Roll out 1/4 to 1/2 inch thick and cut into cookies.
-* Place on baking sheet; lined with parchment paper if desired.
-* Bake 10 to 12 minutes at 350 degrees until golden brown.
+Please note that the size and thickness of your cookies will of course affect the baking time and quantity of cookies. The most important thing is not to let them get *brown*, only *golden brown*.
 
-When cool, enjoy your delicious cookies!
+A variation is to make the 2-dozen-quantity recipe using unsalted butter and no vanilla. When mixed, press dough into a 9 x 9 pan and bake for 30 - 35 minutes at 325 degrees F. When cool, carefully cut into squares with a sharp knife. Dust with confectioner's sugar.
+
+For chocolate chip cookies, use the bottom of a glass to press and flatten the cookies. Unless you have a cookie press or cookie mold, of course!
