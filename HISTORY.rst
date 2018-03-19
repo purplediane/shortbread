@@ -2,6 +2,16 @@
 History
 =======
 
+0.5.0 (2018-03-18)
+------------------
+
+* Add use of module ``inflect`` for better output of quantities.
+* Make count optional so prints recipe for 1 dozen cookies.
+* Actually test all options added in 0.4.0.
+* Improve documentation for CLI options.
+* Improve usage documentation.
+* Eradicate last vestiges of Python 2.7.
+
 0.4.1 (2018-03-17)
 ------------------
 

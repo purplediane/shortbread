@@ -5,7 +5,9 @@ Usage
 Command line
 ------------
 
-The basic usage is to type ``shortbread`` followed by the number of dozen cookies to make. The count is required. For example:
+The basic usage is to type ``shortbread`` followed by the number of dozen cookies to make. If the count is omitted, a count of 1 is used.
+
+For example, to get the quantities for making 4 dozen shortbread cookies:
 
 ::
 
@@ -17,9 +19,9 @@ This will print the ingredients list for making approximately 4 dozen cookies pl
 
     Shortbread Cookies - makes approx. 4 doz.
     4 cups flour
-    1.0 cups sugar (may use brown sugar)
-    2.0 cups butter - NOT margarine
-    1.0 teaspoons vanilla (optional)
+    1 cup sugar (may use brown sugar)
+    2 cups butter - NOT margarine
+    1 teaspoon vanilla (optional)
     Bake cookies at 350 degrees for 10-12 minutes
 
 Optional: Long printout
@@ -37,9 +39,9 @@ Will result in:
 
     Shortbread Cookies - makes approx. 4 doz.
     4 cups flour
-    1.0 cups sugar (may use brown sugar)
-    2.0 cups salted butter - NOT margarine
-    1.0 teaspoons vanilla (optional)
+    1 cup sugar (may use brown sugar)
+    2 cups salted butter - NOT margarine
+    1 teaspoon vanilla (optional)
 
     - Preheat oven to 350 degrees F.
     - Cream the butter and sugar together well.
@@ -66,11 +68,11 @@ Will print out the long version of instructions for making chocolate chip shortb
 
     Chocolate Chip Shortbread Cookies - makes approx. 4 doz.
     4 cups flour
-    1.0 cups sugar (may use brown sugar)
-    2.0 cups salted butter - NOT margarine
-    1.0 teaspoons vanilla (optional)
-    1.0 teaspoons baking powder
-    1.0 cups small semisweet chocolate chips
+    1 cup sugar (may use brown sugar)
+    2 cups salted butter - NOT margarine
+    1 teaspoon vanilla (optional)
+    1 teaspoon baking powder
+    1 cup small semisweet chocolate chips
 
     - Preheat oven to 350 degrees F.
     - Cream the butter and sugar together well.
@@ -91,4 +93,6 @@ Please note that the size and thickness of your cookies will of course affect th
 
 A variation is to make the 2-dozen-quantity recipe using unsalted butter and no vanilla. When mixed, press dough into a 9 x 9 pan and bake for 30 - 35 minutes at 325 degrees F. When cool, carefully cut into squares with a sharp knife. Dust with confectioner's sugar.
 
-For chocolate chip cookies, use the bottom of a glass to press and flatten the cookies. Unless you have a cookie press or cookie mold, of course!
+For chocolate chip cookies, use the bottom of a glass to press and flatten the cookies. Since they are thicker than rolled-out cookies, the cooking time is increased.
+
+If you have a cookie press or cookie mold, then be sure to use it on the cookies!
