@@ -28,8 +28,8 @@ Features
 
 * Calculates and prints the ingredients for ``n`` dozen shortbread cookies.
 * Prints a reminder of temperature and time for baking.
+* Additional options exist for printing long instructions and a Chocolate Chip verion.
 * Of course, the actual number of cookies and baking time depends upon how thick and large you make the cookies!
-* Additional options for printing long instructions and making Chocolate Chip verion.
 * See `Usage documentation`_ for hints and detailed instructions.
 
 Credits
