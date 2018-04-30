@@ -26,6 +26,7 @@ Shortbread Recipe Calculator.
 Features
 --------
 
+* Runs in Python 3.4+
 * Calculates and prints the ingredients for ``n`` dozen shortbread cookies.
 * Prints a reminder of temperature and time for baking.
 * Additional options exist for printing long instructions and a Chocolate Chip verion.
