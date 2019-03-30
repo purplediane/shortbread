@@ -65,9 +65,16 @@ Ready to contribute? Here's how to set up `shortbread` for local development.
 
     $ git clone git@github.com:your_name_here/shortbread.git
 
-3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed for Python 3.4+, this is how you set up your fork for local development::
+3. Install your local copy into a virtual environment, using venv, virtualenvwrapper, or some other method.
+Assuming you have virtualenvwrapper installed for Python 3.5+, this is how you set up your fork for local development::
 
     $ mkvirtualenv shortbread
+    $ cd shortbread/
+    $ python setup.py develop
+
+**NOTE:** You might need to add a Python executable location:
+
+    $ mkvirtualenv -p /usr/local/bin/python3.7 shortbread
     $ cd shortbread/
     $ python setup.py develop
 
