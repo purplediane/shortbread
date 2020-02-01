@@ -4,4 +4,4 @@
 
 __author__ = """Diane Chen"""
 __email__ = 'dianedc@purpleweb.com'
-__version__ = '0.7.0'
+__version__ = '0.8.0'
