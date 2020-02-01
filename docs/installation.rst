@@ -8,7 +8,7 @@ Installation
 Stable release
 --------------
 
-To install Shortbread, you must have Python 3.5 or newer installed. Run this command in your terminal:
+To install Shortbread, you must have Python 3.6 or newer installed. Run this command in your terminal:
 
 .. code-block:: console
 
