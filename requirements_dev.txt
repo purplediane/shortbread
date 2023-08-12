@@ -1,6 +1,6 @@
 pip==21.3.1
 bumpversion==0.6.0
-wheel==0.37.0
+wheel==0.38.1
 watchdog==3.0.0
 
 flake8==4.0.1
@@ -8,7 +8,7 @@ tox==3.24.4
 
 coverage==6.2
 Sphinx==4.3.1
-twine==3.7.1
+twine==4.0.2
 
 pytest==6.2.5
 pytest-runner==5.3.1
